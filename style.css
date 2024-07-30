@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(244, 241, 236);
+    color: beige;
+    min-height: 100vh;
+    font-family: 'outfit', sans-serif;
+    line-height: 1.4;
+    display: grid;
+    place-content: center;
+
+}
+img{
+    max-width: 25%;
+    display: block;
+}
+
+h1, h2 {
+font-family: 'young serif', serif;
+font-weight: 400;
+}
+
+h1{
+    color: black;
+    font-size: 2.8rem;
+}
+
+h2{
+    color: rgb(24, 3, 44);
+    margin-bottom: 1rem;
+}
+.recipe-step{
+    margin: 1 rem 0;
+
+}
+
+ul {
+    padding-left: 1.20 rem;
+
+}
+ul ::marker {
+    color: bisque;
+    font-weight: bold;
+}
+ul li {
+    margin-bottom: 5rem;
+}
+ul li span {
+    margin-left: 1rem ;
+    font-weight: 700;
+}
+hr{
+    margin: 1.5 rem;
+    border: 1px;
+}
+
+.container{
+    max-width: 800px;
+    background-color: rgb(118, 3, 3);
+    margin: 2rem;
+    border-radius: 1rem;
+}
+
+.container .recipe-img {
+    padding: 2rem;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+ .container .recipe-img img{
+    border border-radius: 2rem;
+
+ }
+
+ .recipe-information {
+    padding: orem 2rem 2rem 2rem;
+ }
+
+ .description{
+    margin: 1.5rem o;
+ }
+
+ .recipe-prep-time{
+    padding: 1.25rem;
+    border-radius: 1rem;
+ }
+
+ .recipe-prep-time h3{
+    margin-bottom: .75rem;
+ }
+
+ .ingredients li {
+    margin-bottom: .2rem;
+ }
+
+ .ingredients li span {
+    font-weight: initial;
+ }
+
+ .instructions{
+    padding-left: .5rem;
+    margin-bottom: .5rem;
+    display: flex;
+ }
